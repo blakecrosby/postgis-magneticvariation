@@ -2,7 +2,7 @@
 A PostgreSQL/PostGIS table of magnetic variation values.
 
 # Data Source
-Data was sourced from The World Magnetic Model found at: https://www.ngdc.noaa.gov/geomag/WMM/. The WMM2020 model was used (valid until 20225).
+Data was sourced from The World Magnetic Model found at: https://www.ngdc.noaa.gov/geomag/WMM/. The WMM2020 model was used (valid until 2025) and calulcated the magnetic declination at 0km above mean sea level.
 
 NOTE: This data set includes values for (-60,-179) to (60,179) only.
 

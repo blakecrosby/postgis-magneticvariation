@@ -19,7 +19,7 @@ NOTE: This table uses the `geometry` type with SRID 4326. Not the (new) `geograp
 The value 'variation' is either positive (east variation) or negative (west variation)
 
 ## Indicies
-Two indicies are cerated, one on `year` and a gist index on `location`.
+Two indicies are created, one on `year` and a gist index on `location`.
 
 # Example
 

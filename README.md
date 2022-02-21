@@ -2,14 +2,14 @@
 A PostgreSQL/PostGIS table of magnetic variation values.
 
 # Data Source
-Data was sourced from The World Magnetic Model found at: https://www.ngdc.noaa.gov/geomag/WMM/. WMM2020 was used (valid until 20225).
+Data was sourced from The World Magnetic Model found at: https://www.ngdc.noaa.gov/geomag/WMM/. The WMM2020 model was used (valid until 20225).
 
 NOTE: This data set includes values for (-60,-179) to (60,179) only.
 
 # Schema
 The PostGIS table (called 'magvar') contains  the following schema:
 ```
-    id integer NOT NULL
+    id serial NOT NULL
     location public.geometry(Point,4326)
     year integer
     variation double precision

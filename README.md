@@ -21,6 +21,9 @@ The value 'variation' is either positive (east variation) or negative (west vari
 ## Indicies
 Two indicies are created, one on `year` and a gist index on `location`.
 
+## Owner
+You will most likely have to change the owner in the sql dump to the existing database owners for the import to succeed. 
+
 # Example
 
 ```SELECT variation FROM magvar WHERE year = 2022 ORDER BY location <-> ST_GeometryFromText('POINT(-79.3 43.6)',4326) LIMIT 1```

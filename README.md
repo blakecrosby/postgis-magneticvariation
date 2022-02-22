@@ -27,3 +27,8 @@ Two indicies are created, one on `year` and a gist index on `location`.
 
 will return:
 
+```
+ variation 
+-----------
+    -10.61
+(1 row)```

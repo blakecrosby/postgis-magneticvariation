@@ -31,4 +31,5 @@ will return:
  variation 
 -----------
     -10.61
-(1 row)```
+(1 row)
+```
